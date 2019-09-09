@@ -9,15 +9,7 @@ mongoose.connect('mongodb://localhost:27017/nodeapi', { useNewUrlParser: true })
 
 require('./src/models/Product');
 
-const Product = mongoose.model('Product');
-
-// Primeira rota
-app.get('/', (req, res) => {
-    Product.create({
-        title: 'Mongo',
-        description: 'MongoDB'
-    });
-    return res.send('OK');
-});
+// Rotas
+app.use('/api', require('./src/routes/routes'));
 
 app.listen(3000);
