@@ -1,0 +1,22 @@
+{
+  "name": "nodejs_with_mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alissonmgsantos/nodejs_with_mongoDB.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alissonmgsantos/nodejs_with_mongoDB/issues"
+  },
+  "homepage": "https://github.com/alissonmgsantos/nodejs_with_mongoDB#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
